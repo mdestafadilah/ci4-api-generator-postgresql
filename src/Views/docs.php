@@ -18,7 +18,7 @@
     <script>
       Scalar.createApiReference('#app', {
         // The URL of the OpenAPI/Swagger document
-        url: '<?= site_url() ?>api-docs/openapi.json',
+        url: '<?= base_url('api-docs/openapi.json') ?>',
         // Avoid CORS issues
         //proxyUrl: 'https://proxy.scalar.com',
         showToolbar: "never"
